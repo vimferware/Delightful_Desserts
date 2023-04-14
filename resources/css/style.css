@@ -22,12 +22,12 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-/* ------------------------------------ */
+/* ---------------------------------------------------------------- */
 /* RESUABLE COMPONENTS */
-/* ------------------------------------ */
+/* ---------------------------------------------------------------- */
 
 
-/* ------ HEADINGS ----- */
+/* ------------ HEADINGS ----------- */
 
 h1 {
     color: #fff;
@@ -39,9 +39,55 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* ------------------------------------ */
+/* ------------ BUTTONS ----------- */
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #1d0e00;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #e4b251;
+    border: 1px solid #e4b251;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #e4b251;
+    color: #e4b251;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #e2ab42;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    
+    border: 1px solid #e2ab42;
+    font-weight: 400;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #e2ab42;
+    color: #1d0e00;
+    font-weight: 400;
+}
+
+/* ---------------------------------------------------------------- */
 /* HEADER */
-/* ------------------------------------ */
+/* ---------------------------------------------------------------- */
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-img.jpg);
