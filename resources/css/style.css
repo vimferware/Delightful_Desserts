@@ -1,0 +1,67 @@
+/* 
+beige color: #e4b251 
+dark beige color: #e2ab42
+brown text color: #1d0e00
+*/
+
+/* ---------------------------------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #555;
+    font-family: lato, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+/* ------------------------------------ */
+/* RESUABLE COMPONENTS */
+/* ------------------------------------ */
+
+
+/* ------ HEADINGS ----- */
+
+h1 {
+    color: #fff;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+/* ------------------------------------ */
+/* HEADER */
+/* ------------------------------------ */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*
+.logo {
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+}
+*/
